@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacex</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/body.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+        <div class="container-fluid">
+            <!-- Logo on the left -->
+            <a class="navbar-brand" href="#">
+                <img src="icons/share-removebg-preview.png" alt="SpaceX Logo" class="logo img-fluid" style="width: 150px;">
+            </a>
+    
+            <!-- Hamburger Menu Toggle Button (visible on small screens) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Centered Links & Shop Link for Mobile View -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">FALCON 9</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">FALCON HEAVY</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">DRAGON</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">STARSHIP</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">HUMAN SPACEFLIGHT</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">RIDESHARE</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">STARSHIELD</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">STARLINK</a>
+                    </li>
+                    <!-- Add SHOP link to the navbar -->
+                    <li class="nav-item px-3 d-lg-none">
+                        <a class="nav-link" href="#">SHOP</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Right-aligned Shop Link & Hamburger Icon (Hidden in Small Screens) -->
+            <div class="d-flex align-items-center d-none d-lg-flex">
+                <a class="text-white me-3" href="#">SHOP</a>
+                <img src="icons/hamburger-menu.svg" alt="Menu" class="icons" style="width: 24px;">
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Video Section 1 -->
+    <section id="section1" class="content position-relative text-center text-white">
+        <video autoplay muted loop class="video-bg position-absolute w-100 h-100">
+            <source src="video/Starship_Flight_5_GSS_Tracker_SLOMO_Desktop_3b44231ae0.mp4" type="video/mp4">
+        </video>
+        <div class="position-relative z-1 container">
+            <h2 class="mt-5">RECENT LAUNCH</h2>
+            <h1>Starship's Fifth Flight Test</h1>
+            <button class="btn btn-light mt-3">REWATCH</button>
+        </div>
+    </section>
+
+    <!-- Image Sections -->
+    <section id="section2" class="content text-white text-center" style="background-image: url(../pictures/Europa_outside39mound_DSC_4507_desktop_22ea568a76.jpg);">
+        <div class="container py-5">
+            <h2>RECENT LAUNCH</h2>
+            <h1>EUROPA CLIPPER MISSION</h1>
+            <button class="btn btn-light mt-3">REWATCH</button>
+        </div>
+    </section>
+
+    <section id="section3" class="content text-white text-center" style="background-image: url(../pictures/Starlink_G9_7_Figueroa_Mtn_0923_Desktop_c7cc9220d4.jpg);">
+        <div class="container py-5">
+            <h2>RECENT LAUNCH</h2>
+            <h1>STARLINK MISSION</h1>
+            <button class="btn btn-light mt-3">REWATCH</button>
+        </div>
+    </section>
+
+    <section id="section4" class="content text-white text-center" style="background-image: url(../pictures/Star10_10_101524_DSC_3505_desktop_4581384252.jpg);">
+        <div class="container py-5">
+            <h2>RECENT LAUNCH</h2>
+            <h1>STARLINK MISSION</h1>
+            <button class="btn btn-light mt-3">REWATCH</button>
+        </div>
+    </section>
+
+    <section id="section5" class="content text-white text-center" style="background-image: url(../pictures/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);">
+        <div class="container py-5">
+            <h1>ADVANCING HUMAN SPACEFLIGHT</h1>
+            <button class="btn btn-light mt-3">REWATCH</button>
+        </div>
+    </section>
+
+    <section id="section6" class="content text-white text-center" style="background-image: url(../pictures/make_life_multiplanetary_desktop_3fa7cff73c.jpg);">
+        <div class="container py-5">
+            <h1>TO MAKE LIFE MULTIPLANETARY</h1>
+            <button class="btn btn-light mt-3">REWATCH</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p class="mb-0">SPACEX &#169; 2024</p>
+            <p class="mb-0">PRIVACY POLICY | SUPPLIERS</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

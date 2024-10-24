@@ -1,0 +1,179 @@
+/* Global Styles */
+body {
+    margin: 0;
+    color: white;
+    font-family: Familjen Grotesk, sans-serif;
+}
+
+.content {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.video-bg {
+    object-fit: cover;
+    z-index: -1;
+}
+
+.btn {
+    padding: 15px 45px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+.icons {
+    filter: invert(100%);
+}
+
+
+/* Hide Hamburger Icon for screens less than 786px */
+@media (max-width: 786px) {
+    .icons {
+        display: none;
+    }
+}
+
+/* Adjust navbar styles */
+@media (max-width: 786px) {
+    .navbar-toggler {
+        display: flex;
+    }
+
+    /* Add more padding for navbar items in smaller screens */
+    .navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+
+    /* Show SHOP link in collapsible menu */
+    .d-lg-none {
+        display: block;
+    }
+
+    /* Hide right-aligned SHOP link and hamburger icon for larger screens */
+    .d-lg-flex {
+        display: none;
+    }
+}
+
+
+/* Mission Section Styling */
+.mission-section {
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.mission-section .small-text {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.mission-section .mission-title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.mission-section .mission-btn {
+    padding: 10px 30px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mission-section .mission-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.mission-section .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7; /* Optional to enhance text visibility */
+}
+
+.mission-section .row {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.mission-section img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .mission-section .mission-title {
+        font-size: 36px;
+    }
+    .mission-section .small-text {
+        font-size: 14px;
+    }
+}
+
+
+.content .container {
+    position: relative;
+    text-align: left; /* Aligns text to the left */
+    padding: 0 50px; /* Adjusts the padding to move it more to the right */
+    transform: translate(-4%, 30%); /* Moves content slightly to the right and bottom */
+}
+
+@media (max-width: 768px) {
+    .content .container {
+        transform: translate(-21%, 30%); /* Adjusts position for smaller screens */
+    }
+}
+
+
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+
+
+
+
